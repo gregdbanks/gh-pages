@@ -10,10 +10,16 @@
 .ScoreTable table {
   width: 100%;
   margin: 0 auto;
-  min-width: 400px;
+  min-width: 260px;
 }
 
 .ScoreTable-section {
   vertical-align: top;
   width: 100%;
 }
+
+ @media only screen and (max-width : 768px) {
+   .ScoreTable {
+
+   }
+ }
